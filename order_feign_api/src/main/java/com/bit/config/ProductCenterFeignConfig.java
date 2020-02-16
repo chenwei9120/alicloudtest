@@ -1,7 +1,6 @@
-package com.bit.order_api.config;
+package com.bit.apis.config;
 
 import feign.Logger;
-import feign.RequestInterceptor;
 import org.springframework.context.annotation.Bean;
 
 /**

@@ -1,5 +1,6 @@
 package com.bit.order_service.controller;
 
+import com.bit.apis.ProductClient;
 import com.bit.model.Product;
 import com.bit.order_service.api.ProductAPI;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class OrderController {
 
     @Autowired(required = false)
-    private ProductAPI client;
+    private ProductClient client;
 
     @RequestMapping("/get/product/{id}")
     public Product getProductById(@PathVariable Long id) {
