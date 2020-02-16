@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common" />
+        <module name="order_feign_api" />
+        <module name="order_service" />
+        <module name="pay_service" />
+        <module name="product_service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="admin-server" target="1.8" />
+      <module name="config-server" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="mall" target="1.5" />
+      <module name="mall-portal" target="1.8" />
+      <module name="nacos-cmdb-plugin-example" target="1.7" />
+      <module name="nacos-examples" target="1.5" />
+      <module name="nacos-health-plugin-example" target="1.8" />
+      <module name="nacos-sentinel-example" target="1.8" />
+      <module name="nacos-spring-boot-config-example" target="1.8" />
+      <module name="nacos-spring-boot-config-mysql-example" target="1.8" />
+      <module name="nacos-spring-boot-discovery-example" target="1.8" />
+      <module name="nacos-spring-boot-example" target="1.8" />
+      <module name="nacos-spring-cloud-config-example" target="1.8" />
+      <module name="nacos-spring-cloud-config-multi-data-ids-example" target="1.8" />
+      <module name="nacos-spring-cloud-consumer-example" target="1.8" />
+      <module name="nacos-spring-cloud-discovery-example" target="1.8" />
+      <module name="nacos-spring-cloud-example" target="1.8" />
+      <module name="nacos-spring-cloud-provider-example" target="1.8" />
+      <module name="nacos-spring-config-datasource-example" target="1.6" />
+      <module name="nacos-spring-config-example" target="1.6" />
+      <module name="nacos-spring-config-listener-example" target="1.6" />
+      <module name="nacos-spring-config-multi-data-ids-example" target="1.6" />
+      <module name="nacos-spring-config-pojo-example" target="1.6" />
+      <module name="nacos-spring-discovery-example" target="1.6" />
+      <module name="nacos-spring-example" target="1.6" />
+      <module name="nacos_config" target="1.8" />
+      <module name="nacos_discovery" target="1.8" />
+      <module name="order" target="1.8" />
+      <module name="product" target="1.8" />
+      <module name="service-member" target="1.8" />
+      <module name="service-order" target="1.8" />
+      <module name="service-product" target="1.8" />
+      <module name="springboot_study" target="1.8" />
+      <module name="tulingvip-cloud-alibaba" target="1.8" />
+      <module name="tulingvip-ms-alibaba-common" target="1.8" />
+      <module name="tulingvip-ms-alibaba-dao" target="1.8" />
+      <module name="tulingvip01-ms-alibaba-config" target="1.8" />
+      <module name="tulingvip01-ms-alibaba-nocasclient-order" target="1.8" />
+      <module name="tulingvip01-ms-alibaba-nocasclient-product" target="1.8" />
+      <module name="tulingvip01-ms-alibaba-rest-order" target="1.8" />
+      <module name="tulingvip01-ms-alibaba-rest-product" target="1.8" />
+      <module name="tulingvip02-ms-alibaba-customcfg-ribbon-order" target="1.8" />
+      <module name="tulingvip02-ms-alibaba-customlb-order" target="1.8" />
+      <module name="tulingvip02-ms-alibaba-ribbon-order" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

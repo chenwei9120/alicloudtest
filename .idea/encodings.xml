@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://D:/Code/Java/springcloud/spring-cloud-mall/admin-server" charset="UTF-8" />
+    <file url="file://D:/Code/Java/springcloud/spring-cloud-mall/config-server" charset="UTF-8" />
+    <file url="file://D:/Code/Java/springcloud/spring-cloud-mall/erureka-server" charset="UTF-8" />
+    <file url="file://D:/Code/Java/springcloud/spring-cloud-mall/mall-portal" charset="UTF-8" />
+    <file url="file://D:/Code/Java/springcloud/spring-cloud-mall/service-member" charset="UTF-8" />
+    <file url="file://D:/Code/Java/springcloud/spring-cloud-mall/service-order" charset="UTF-8" />
+    <file url="file://D:/Code/Java/springcloud/spring-cloud-mall/service-product" charset="UTF-8" />
+    <file url="file://D:/Technical/TuLing/3期/微服务专题/tuling3-springcloud-alibaba/tulingvip-cloud-alibaba" charset="UTF-8" />
+    <file url="file://D:/Technical/TuLing/3期/微服务专题/tuling3-springcloud-alibaba/tulingvip-cloud-alibaba/tulingvip-ms-alibaba-common" charset="UTF-8" />
+    <file url="file://D:/Technical/TuLing/3期/微服务专题/tuling3-springcloud-alibaba/tulingvip-cloud-alibaba/tulingvip-ms-alibaba-dao" charset="UTF-8" />
+    <file url="file://D:/Technical/TuLing/3期/微服务专题/tuling3-springcloud-alibaba/tulingvip-cloud-alibaba/tulingvip01-ms-alibaba-config" charset="UTF-8" />
+    <file url="file://D:/Technical/TuLing/3期/微服务专题/tuling3-springcloud-alibaba/tulingvip-cloud-alibaba/tulingvip01-ms-alibaba-nacosclient-order" charset="UTF-8" />
+    <file url="file://D:/Technical/TuLing/3期/微服务专题/tuling3-springcloud-alibaba/tulingvip-cloud-alibaba/tulingvip01-ms-alibaba-nacosclient-product" charset="UTF-8" />
+    <file url="file://D:/Technical/TuLing/3期/微服务专题/tuling3-springcloud-alibaba/tulingvip-cloud-alibaba/tulingvip01-ms-alibaba-rest-order" charset="UTF-8" />
+    <file url="file://D:/Technical/TuLing/3期/微服务专题/tuling3-springcloud-alibaba/tulingvip-cloud-alibaba/tulingvip01-ms-alibaba-rest-product" charset="UTF-8" />
+    <file url="file://D:/Technical/TuLing/3期/微服务专题/tuling3-springcloud-alibaba/tulingvip-cloud-alibaba/tulingvip02-ms-alibaba-customcfg-ribbon-order" charset="UTF-8" />
+    <file url="file://D:/Technical/TuLing/3期/微服务专题/tuling3-springcloud-alibaba/tulingvip-cloud-alibaba/tulingvip02-ms-alibaba-customlb-order" charset="UTF-8" />
+    <file url="file://D:/Technical/TuLing/3期/微服务专题/tuling3-springcloud-alibaba/tulingvip-cloud-alibaba/tulingvip02-ms-alibaba-ribbon-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order_feign_api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pay_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/product_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../nacos-examples-master/nacos-cmdb-plugin-example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../nacos-examples-master/nacos-spring-example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../nacos-examples-master/nacos-spring-example/nacos-spring-config-datasource-example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../nacos-examples-master/nacos-spring-example/nacos-spring-config-example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../nacos-examples-master/nacos-spring-example/nacos-spring-config-listener-example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../nacos-examples-master/nacos-spring-example/nacos-spring-config-multi-data-ids-example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../nacos-examples-master/nacos-spring-example/nacos-spring-config-pojo-example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../nacos-examples-master/nacos-spring-example/nacos-spring-discovery-example" charset="UTF-8" />
+  </component>
+</project>
