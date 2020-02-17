@@ -11,6 +11,7 @@
         <module name="order_service" />
         <module name="pay_service" />
         <module name="product_service" />
+        <module name="springclouddemo2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

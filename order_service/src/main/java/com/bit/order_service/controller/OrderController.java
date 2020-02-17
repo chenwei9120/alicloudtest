@@ -2,8 +2,9 @@ package com.bit.order_service.controller;
 
 import com.bit.apis.ProductClient;
 import com.bit.model.Product;
-import com.bit.order_service.api.ProductAPI;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -19,6 +20,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/order")
 public class OrderController {
 
+    @Value("${order.service.version}")
+    private String version;
+
     @Autowired(required = false)
     private ProductClient client;
 
@@ -27,5 +31,9 @@ public class OrderController {
         return client.getProductById(id);
     }
 
+    @GetMapping("/get/version")
+    public String getVersion() {
+        return version;
+    }
 
 }

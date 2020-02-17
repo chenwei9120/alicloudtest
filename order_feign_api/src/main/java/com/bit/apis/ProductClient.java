@@ -1,7 +1,7 @@
 package com.bit.apis;
 
 import com.bit.model.Product;
-import com.bit.apis.config.ProductCenterFeignConfig;
+import com.config.ProductCenterFeignConfig;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
