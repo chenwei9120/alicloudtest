@@ -1,20 +1,22 @@
 package com.config;
 
+import com.bit.apis.interceptors.ProductSericeInterceptor;
 import feign.Logger;
+import feign.RequestInterceptor;
 import org.springframework.context.annotation.Bean;
 
 /**
  * @author chenwei
  * @version 1.0.0
- * @ClassName ProductCenterFeignConfig.java
+ * @ClassName OrderCenterFeignConfig.java
  * @Description TODO
  * @createTime 2020年02月15日 21:34:00
  */
 //这里如果加上@Configration，扫描到后就会变成全局配置
-public class ProductCenterFeignConfig {
+public class OrderCenterFeignConfig {
 
-    public ProductCenterFeignConfig(){
-        System.out.println("ProductCenterFeignConfig()");
+    public OrderCenterFeignConfig(){
+        System.out.println("OrderCenterFeignConfig()");
     }
 
     @Bean
@@ -23,6 +25,11 @@ public class ProductCenterFeignConfig {
         //return Logger.Level.HEADERS;
         return Logger.Level.BASIC;
         //return Logger.Level.NONE;
+    }
+
+    @Bean
+    public RequestInterceptor requestInterceptor() {
+        return new ProductSericeInterceptor();
     }
 
     /**

@@ -1,6 +1,7 @@
 package com.bit.order_service.controller;
 
-import com.bit.apis.ProductClient;
+import com.bit.apis.PayServiceClient;
+import com.bit.apis.ProductServiceClient;
 import com.bit.model.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -24,11 +25,24 @@ public class OrderController {
     private String version;
 
     @Autowired(required = false)
-    private ProductClient client;
+    private ProductServiceClient client;
+
+    @Autowired(required = false)
+    private PayServiceClient payServiceClient;
 
     @RequestMapping("/get/product/{id}")
     public Product getProductById(@PathVariable Long id) {
         return client.getProductById(id);
+    }
+
+    @RequestMapping(value = "/post/pay/{orderId}")
+    public String pay(@PathVariable Long orderId) {
+        try {
+            payServiceClient.pay(orderId);
+            return "OK";
+        } catch(Exception e) {
+            return "Error";
+        }
     }
 
     @GetMapping("/get/version")
