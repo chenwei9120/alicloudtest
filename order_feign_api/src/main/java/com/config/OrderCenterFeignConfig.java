@@ -1,6 +1,5 @@
 package com.config;
 
-import com.bit.apis.interceptors.ProductSericeInterceptor;
 import feign.Logger;
 import feign.RequestInterceptor;
 import org.springframework.context.annotation.Bean;
@@ -29,7 +28,7 @@ public class OrderCenterFeignConfig {
 
     @Bean
     public RequestInterceptor requestInterceptor() {
-        return new ProductSericeInterceptor();
+        return new com.config.ProductSericeInterceptor();
     }
 
     /**

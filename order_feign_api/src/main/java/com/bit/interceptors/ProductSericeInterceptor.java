@@ -1,4 +1,4 @@
-package com.bit.apis.interceptors;
+package com.config;
 
 import feign.RequestInterceptor;
 import feign.RequestTemplate;
