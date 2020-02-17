@@ -11,7 +11,6 @@
         <module name="order_service" />
         <module name="pay_service" />
         <module name="product_service" />
-        <module name="springclouddemo2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -49,6 +48,7 @@
       <module name="service-order" target="1.8" />
       <module name="service-product" target="1.8" />
       <module name="springboot_study" target="1.8" />
+      <module name="springclouddemo2" target="1.5" />
       <module name="tulingvip-cloud-alibaba" target="1.8" />
       <module name="tulingvip-ms-alibaba-common" target="1.8" />
       <module name="tulingvip-ms-alibaba-dao" target="1.8" />

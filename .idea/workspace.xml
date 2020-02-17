@@ -2,21 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a16c5e-79c6-467a-84d4-0296615a10da" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_feign_api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order_feign_api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/apis/ProductClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/apis/ProductClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/config/ProductCenterFeignConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order_service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/com/bit/order_service/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order_service/src/main/java/com/bit/order_service/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order_service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent_depency/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parent_depency/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pay_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pay_service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springclouddemo2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springclouddemo2/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springclouddemo2/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springclouddemo2/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springclouddemo2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springclouddemo2/src/main/java/com/bit/springclouddemo2/Springclouddemo2Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springclouddemo2/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springclouddemo2/src/test/java/com/bit/springclouddemo2/Springclouddemo2ApplicationTests.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/nacos_demo/target/" />
@@ -163,7 +156,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pay_service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
+            <state relative-caret-position="95">
               <caret line="55" column="27" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
             </state>
           </provider>
@@ -296,30 +289,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ali_cloud" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ali_cloud" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="parent_depency" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="parent_depency" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -343,47 +313,6 @@
               <item name="ali_cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="ali_cloud" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ali_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ali_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ali_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ali_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="order_feign_api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ali_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ali_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="order_service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ali_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ali_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="parent_depency" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ali_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ali_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="pay_service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ali_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ali_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="product_service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ali_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ali_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="product_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ali_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ali_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springclouddemo2" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -400,7 +329,7 @@
     <property name="SearchEverywhereHistoryKey" value="nacos-version&#9;FILE&#9;jar://D:/M2/repository/com/alibaba/nacos/nacos-common/1.1.4/nacos-common-1.1.4.jar!/nacos-version.txt" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581921085087" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581921273965" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="D:/Technical/TuLing/3期/微服务专题/tuling3-springcloud-alibaba" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -536,17 +465,17 @@
       <workItem from="1581771050856" duration="14251000" />
       <workItem from="1581814356079" duration="8817000" />
       <workItem from="1581836681520" duration="5397000" />
-      <workItem from="1581893476181" duration="7304000" />
+      <workItem from="1581893476181" duration="7662000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82953000" />
+    <option name="totallyTimeSpent" value="83311000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28619304" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28619304" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -556,7 +485,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5566572" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28611898" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.042432815" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -958,7 +887,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pay_service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
+        <state relative-caret-position="95">
           <caret line="55" column="27" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
         </state>
       </provider>
