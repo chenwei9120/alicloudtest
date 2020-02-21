@@ -12,7 +12,7 @@ ribbon.MaxAutoRetriesNextServer=2
 ribbon.OkToRetryOnAllOperations=false
 #product_service.
 ribbon.NFLoadBalancerRuleClassName=com.netflix.loadbalancer.RandomRule
-#ribbon.eager-load.enabled=true
+ribbon.eager-load.enabled=true
 #product-center:
 #ribbon:
 #NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RoundRobinRule

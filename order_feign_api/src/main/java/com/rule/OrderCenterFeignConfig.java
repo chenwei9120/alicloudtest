@@ -1,4 +1,4 @@
-package com.config;
+package com.rule;
 
 import feign.Logger;
 import feign.RequestInterceptor;
@@ -28,7 +28,7 @@ public class OrderCenterFeignConfig {
 
     @Bean
     public RequestInterceptor requestInterceptor() {
-        return new com.config.ProductSericeInterceptor();
+        return new com.rule.ProductSericeInterceptor();
     }
 
     /**

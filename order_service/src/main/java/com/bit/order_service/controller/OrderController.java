@@ -5,6 +5,7 @@ import com.bit.apis.ProductServiceClient;
 import com.bit.model.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @createTime 2020年02月15日 23:21:00
  */
 @RestController
-@RequestMapping("/order")
+@RefreshScope
 public class OrderController {
 
     @Value("${order.service.version}")
@@ -48,6 +49,11 @@ public class OrderController {
     @GetMapping("/get/version")
     public String getVersion() {
         return version;
+    }
+
+    @GetMapping("/get/throw")
+    public void throwException() {
+        throw new RuntimeException("拦截自定义异常测试.");
     }
 
 }

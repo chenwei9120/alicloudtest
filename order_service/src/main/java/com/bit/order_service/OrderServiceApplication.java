@@ -1,4 +1,4 @@
-package com.bit;
+package com.bit.order_service;
 
 import com.bit.util.SpringManager;
 import org.slf4j.Logger;
