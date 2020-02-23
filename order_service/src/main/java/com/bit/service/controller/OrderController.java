@@ -1,7 +1,7 @@
-package com.bit.order_service.controller;
+package com.bit.service.controller;
 
-import com.bit.apis.PayServiceClient;
-import com.bit.apis.ProductServiceClient;
+import com.bit.service.feign_apis.client.PayServiceClient;
+import com.bit.service.feign_apis.client.ProductServiceClient;
 import com.bit.model.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -26,14 +26,14 @@ public class OrderController {
     private String version;
 
     @Autowired(required = false)
-    private ProductServiceClient client;
+    private ProductServiceClient productServiceClient;
 
     @Autowired(required = false)
     private PayServiceClient payServiceClient;
 
     @RequestMapping("/get/product/{id}")
     public Product getProductById(@PathVariable Long id) {
-        return client.getProductById(id);
+        return productServiceClient.getProductById(id);
     }
 
     @RequestMapping(value = "/post/pay/{orderId}")
@@ -41,7 +41,7 @@ public class OrderController {
         try {
             payServiceClient.pay(orderId);
             return "OK";
-        } catch(Exception e) {
+        } catch (Exception e) {
             return "Error";
         }
     }
@@ -56,4 +56,14 @@ public class OrderController {
         throw new RuntimeException("拦截自定义异常测试.");
     }
 
+    @GetMapping("/get/timeout")
+    public void timeOutTest() {
+        long start = System.currentTimeMillis();
+        try {
+            productServiceClient.timeoutAction();
+        } finally {
+            System.out.println("总共消耗：" + (System.currentTimeMillis() - start));
+        }
+
+    }
 }

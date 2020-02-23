@@ -2,19 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a16c5e-79c6-467a-84d4-0296615a10da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/order_service/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pay_service/src/main/java/com/bit/pay_service/config/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product_service/src/main/java/com/bit/product_service/config/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/apis/ProductServiceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/apis/ProductServiceClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/interceptors/ProductSericeInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/interceptors/ProductSericeInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_feign_api/src/main/java/com/config/OrderCenterFeignConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/order_feign_api/src/main/java/com/rule/OrderCenterFeignConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order_service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/com/bit/OrderServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order_service/src/main/java/com/bit/order_service/OrderServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/com/bit/order_service/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order_service/src/main/java/com/bit/order_service/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/com/rule/RibbonConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order_service/src/main/resources/application.properties.back" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/apis/PayServiceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/service/feign_apis/client/PayServiceClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/apis/ProductServiceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/service/feign_apis/client/ProductServiceClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/feign_apis/rule/OrderCenterFeignConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/interceptors/ProductSericeInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/com/bit/order_service/OrderServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order_service/src/main/java/com/bit/service/OrderServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/com/bit/order_service/config/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/order_service/src/main/java/com/bit/service/config/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/com/bit/order_service/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/order_service/src/main/java/com/bit/service/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/com/bit/order_service/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order_service/src/main/java/com/bit/service/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/com/bit/rule/RibbonConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/order_service/src/main/java/com/bit/rule/RibbonConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/src/main/resources/application.properties.back" beforeDir="false" afterPath="$PROJECT_DIR$/order_service/src/main/resources/application.properties.back" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order_service/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/src/test/java/com/bit/order_service/OrderServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/order_service/src/test/java/com/bit/service/OrderServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay_service/src/main/java/com/bit/pay_service/config/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/pay_service/src/main/java/com/bit/pay_service/config/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/src/main/java/com/bit/product_service/config/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/src/main/java/com/bit/product_service/config/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/src/main/java/com/bit/product_service/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/src/main/java/com/bit/product_service/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/nacos_demo/target/" />
@@ -95,28 +99,30 @@
     <session id="-883314250">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="RestTemplateCustomizer" value="1" />
+          <entry key="back" value="2" />
           <entry key="class" value="29" />
           <entry key="gitignore" value="5" />
-          <entry key="java" value="151" />
+          <entry key="java" value="188" />
           <entry key="pom" value="13" />
-          <entry key="properties" value="45" />
+          <entry key="properties" value="56" />
           <entry key="txt" value="1" />
           <entry key="xml" value="88" />
           <entry key="yml" value="8" />
@@ -125,9 +131,9 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="29" />
-          <entry key="JAVA" value="151" />
-          <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Properties" value="45" />
+          <entry key="JAVA" value="188" />
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="Properties" value="56" />
           <entry key="UML" value="1" />
           <entry key="XML" value="101" />
           <entry key="YAML" value="8" />
@@ -135,18 +141,19 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="back" value="1" />
           <entry key="dummy" value="18" />
-          <entry key="java" value="2291" />
-          <entry key="properties" value="931" />
+          <entry key="java" value="2658" />
+          <entry key="properties" value="967" />
           <entry key="xml" value="629" />
           <entry key="yml" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2291" />
-          <entry key="PLAIN_TEXT" value="18" />
-          <entry key="Properties" value="931" />
+          <entry key="JAVA" value="2658" />
+          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="Properties" value="967" />
           <entry key="XML" value="629" />
           <entry key="YAML" value="12" />
         </counts>
@@ -161,62 +168,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/order_service/src/main/java/com/bit/order_service/controller/OrderController.java">
+        <entry file="file://$PROJECT_DIR$/order_service/src/main/resources/bootstrap.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1116#1117#0" expanded="true" />
-                <element signature="e#1164#1165#0" expanded="true" />
-                <element signature="e#1491#1492#0" expanded="true" />
-                <element signature="e#1521#1522#0" expanded="true" />
-                <element signature="e#1643#1644#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="190">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/order_service/src/main/java/com/bit/order_service/config/GlobalExceptionHandler.java">
+        <entry file="file://$PROJECT_DIR$/product_service/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1">
-              <caret column="37" selection-start-column="37" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="152">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pay_service/src/main/java/com/bit/pay_service/config/GlobalExceptionHandler.java">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/product_service/src/main/java/com/bit/product_service/config/GlobalExceptionHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="450">
+              <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/order_service/src/main/java/com/bit/order_service/config/WebConfig.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/ArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="37" />
+            <state relative-caret-position="232">
+              <caret line="472" column="32" lean-forward="true" selection-start-line="472" selection-start-column="32" selection-end-line="472" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/order_service/src/main/java/com/bit/order_service/OrderServiceApplication.java">
+        <entry file="file://$PROJECT_DIR$/order_service/src/main/java/com/bit/service/config/WebConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+            <state relative-caret-position="399">
+              <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -235,13 +226,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>product-service</find>
-      <find>dependi</find>
-      <find>EnableF</find>
-      <find>product_service</find>
-      <find>getProductById</find>
-      <find>/get/product/{id}</find>
-      <find>@RequestMapping(&quot;/product/get/{id}&quot;)</find>
       <find>solr</find>
       <find>solr.version</find>
       <find>8.4.1</find>
@@ -265,6 +249,13 @@
       <find>0a7f9a48-14cb-4ce4-b48b-a31f06567575</find>
       <find>spring‐cloud‐starter‐alibaba‐sentinel</find>
       <find>order.service.version</find>
+      <find>applicationListener</find>
+      <find>credit-service</find>
+      <find>connectTimeout</find>
+      <find>con</find>
+      <find>connect-timeout</find>
+      <find>1000</find>
+      <find>RestTemplate</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -273,22 +264,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pay_service/src/main/java/com/bit/pay_service/PayServiceApplication.java" />
-        <option value="$PROJECT_DIR$/order_service/src/main/java/com/bit/order_service/config/RibbonConfiguration.java" />
-        <option value="D:/Technical/TuLing/3期/微服务专题/tuling3-springcloud-alibaba/tulingvip-cloud-alibaba/tulingvip02-ms-alibaba-ribbon-order/src/main/java/com/tuling/config/WebConfig.java" />
-        <option value="D:/Technical/TuLing/3期/微服务专题/tuling3-springcloud-alibaba/tulingvip-cloud-alibaba/tulingvip02-ms-alibaba-ribbon-order/src/main/java/com/tuling/intercept/AuthIntercept.java" />
-        <option value="$PROJECT_DIR$/product_service/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/bit/model/product.java" />
-        <option value="$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/order_api/product_api.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/bit/model/Product.java" />
-        <option value="$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/order_api/Product_api.java" />
-        <option value="$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/order_api/config/ProductCenterFeignConfig.java" />
-        <option value="$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/order_api/ProductAPI.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/bit/util/SpringManager.java" />
-        <option value="$PROJECT_DIR$/order_service/src/main/java/com/bit/order_service/OrderServiceApplication.java" />
         <option value="$PROJECT_DIR$/order_service/src/main/java/com/bit/order_service/order_api/ProductAPI.java" />
         <option value="$PROJECT_DIR$/order_service/src/main/java/com/bit/order_service/api/ProductAPI.java" />
-        <option value="$PROJECT_DIR$/product_service/src/main/java/com/bit/product_service/controller/ProductController.java" />
         <option value="$PROJECT_DIR$/order_feign_api/src/main/java/com/config/ProductCenterFeignConfig.java" />
         <option value="$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/apis/ProductClient.java" />
         <option value="$PROJECT_DIR$/springclouddemo2/pom.xml" />
@@ -313,16 +291,29 @@
         <option value="$PROJECT_DIR$/order_service/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/order_service/pom.xml" />
         <option value="$PROJECT_DIR$/order_service/src/main/java/com/config/WebConfig.java" />
-        <option value="$PROJECT_DIR$/order_service/src/main/java/com/bit/order_service/controller/OrderController.java" />
-        <option value="$PROJECT_DIR$/order_service/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/order_service/src/main/java/com/config/CustomAdvice.java" />
         <option value="$PROJECT_DIR$/order_service/src/main/java/com/config/GlobalExceptionHandler.java" />
         <option value="$PROJECT_DIR$/order_service/src/main/java/com/bit/GlobalExceptionHandler.java" />
         <option value="$PROJECT_DIR$/order_service/src/main/java/com/rule/RibbonConfiguration.java" />
         <option value="$PROJECT_DIR$/order_service/src/main/java/com/bit/config/GlobalExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/order_service/src/main/java/com/bit/order_service/config/WebConfig.java" />
         <option value="$PROJECT_DIR$/order_service/src/main/java/com/bit/order_service/config/GlobalExceptionHandler.java" />
         <option value="$PROJECT_DIR$/pay_service/src/main/java/com/bit/pay_service/config/GlobalExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/product_service/src/main/java/com/bit/product_service/ProductServiceApplication.java" />
+        <option value="$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/feign_apis/interceptors/ProductSericeInterceptor.java" />
+        <option value="$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/feign_apis/client/ProductServiceClient.java" />
+        <option value="$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/rule/OrderCenterFeignConfig.java" />
+        <option value="$PROJECT_DIR$/order_service/src/main/java/com/bit/order_service/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/product_service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/order_service/src/main/java/com/bit/order_service/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/order_service/src/main/java/com/bit/order_service/OrderServiceApplication.java" />
+        <option value="$PROJECT_DIR$/order_service/src/main/java/com/bit/rule/RibbonConfiguration.java" />
+        <option value="$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/service/feign_apis/client/ProductServiceClient.java" />
+        <option value="$PROJECT_DIR$/order_service/src/main/java/com/bit/service/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/order_service/src/main/resources/application.properties.back" />
+        <option value="$PROJECT_DIR$/order_service/src/main/java/com/bit/service/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/order_service/src/main/java/com/bit/service/OrderServiceApplication.java" />
+        <option value="$PROJECT_DIR$/order_service/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/product_service/src/main/java/com/bit/product_service/controller/ProductController.java" />
         <option value="$PROJECT_DIR$/product_service/src/main/java/com/bit/product_service/config/GlobalExceptionHandler.java" />
       </list>
     </option>
@@ -345,11 +336,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="parent_depency" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="order_service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="parent_depency" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="order_service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -357,8 +348,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="811" />
-    <option name="y" value="52" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
     <option name="width" value="1940" />
     <option name="height" value="1050" />
   </component>
@@ -370,7 +361,6 @@
     <panes>
       <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -378,154 +368,11 @@
               <item name="ali_cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="ali_cloud" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ali_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ali_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="order_service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ali_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ali_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="order_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ali_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ali_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="order_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ali_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ali_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="order_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ali_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ali_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="order_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ali_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ali_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="order_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bit" type="462c0819:PsiDirectoryNode" />
-              <item name="order_service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ali_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ali_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="order_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bit" type="462c0819:PsiDirectoryNode" />
-              <item name="order_service" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ali_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ali_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="order_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ali_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ali_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="pay_service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ali_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ali_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="pay_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ali_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ali_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="pay_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ali_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ali_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="pay_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ali_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ali_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="pay_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pay_service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ali_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ali_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="product_service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ali_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ali_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="product_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ali_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ali_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="product_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ali_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ali_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="product_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ali_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ali_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="product_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="product_service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ali_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ali_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="product_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="product_service" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -536,7 +383,7 @@
     <property name="SearchEverywhereHistoryKey" value="nacos-version&#9;FILE&#9;jar://D:/M2/repository/com/alibaba/nacos/nacos-common/1.1.4/nacos-common-1.1.4.jar!/nacos-version.txt" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582250870263" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582501633637" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="D:/Technical/TuLing/3期/微服务专题/04.Nacos服务注册与发现核心源码剖析/tuling-3-springcloud-alibaba-demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -599,11 +446,11 @@
       <module name="order_service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bit.order_service.*" />
+          <option name="PATTERN" value="com.bit.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bit.order_service.OrderServiceApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bit.service.OrderServiceApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -675,18 +522,18 @@
       <workItem from="1581814356079" duration="8817000" />
       <workItem from="1581836681520" duration="5397000" />
       <workItem from="1581893476181" duration="30390000" />
-      <workItem from="1582169952016" duration="6394000" />
+      <workItem from="1582169952016" duration="11761000" />
+      <workItem from="1582270326960" duration="8177000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112433000" />
+    <option name="totallyTimeSpent" value="125977000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.41823056" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33981234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -694,11 +541,9 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" />
-      <window_info anchor="bottom" id="Analysis" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28611898" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3186969" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.042432815" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -711,13 +556,15 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.41784704" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.05240793" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="16" />
+      <window_info anchor="bottom" id="Analysis" order="17" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.29758713" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.13873994" />
       <window_info anchor="right" id="Database" order="6" weight="0.3297587" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -740,22 +587,33 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/apis/config/ProductCenterFeignConfig.java</url>
+          <url>file://$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/feign_apis/config/ProductCenterFeignConfig.java</url>
           <line>23</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/order_service/src/main/java/com/bit/order_service/controller/OrderController.java</url>
+          <url>file://$PROJECT_DIR$/order_service/src/main/java/com/bit/service/controller/OrderController.java</url>
           <line>44</line>
           <properties />
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product_service/src/main/java/com/bit/product_service/controller/ProductController.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>System.currentTimeMillis() - start</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>clazz instanceof Class</expression-string>
         <language-id>JAVA</language-id>
@@ -796,46 +654,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>SpringManager.getBean(ProductAPI.class)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Long.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order_service/src/main/java/com/bit/order_service/api/ProductAPI.java" />
-    <entry file="file://$PROJECT_DIR$/order_service/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order_feign_api/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parent_depency/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/config/ProductCenterFeignConfig.java" />
-    <entry file="file://$PROJECT_DIR$/common/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-dependencies/Greenwich.SR3/spring-cloud-dependencies-Greenwich.SR3.pom">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -906,16 +727,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/apis/interceptors/ProductSericeInterceptor.java" />
     <entry file="file://$PROJECT_DIR$/order_service/src/main/java/com/bit/config/RibbonConfiguration.java" />
-    <entry file="file://$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/apis/ProductServiceClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" selection-start-line="16" selection-end-line="20" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pay_service/src/main/java/com/bit/pay_service/PayServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -930,13 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/apis/PayServiceClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="17" column="52" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pay_service/src/main/java/com/bit/pay_service/controller/PayController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -944,38 +748,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product_service/src/main/java/com/bit/product_service/controller/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/interceptors/ProductSericeInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/interceptors/ProductSericeInterceptor.java" />
     <entry file="file://$PROJECT_DIR$/order_feign_api/src/main/java/com/config/abc.java" />
-    <entry file="file://$PROJECT_DIR$/order_feign_api/src/main/java/com/rule/OrderCenterFeignConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="30" column="54" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pay_service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="35" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/feign_apis/rule/OrderCenterFeignConfig.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/cloud/spring-cloud-alibaba-nacos-config/2.2.0.RELEASE/spring-cloud-alibaba-nacos-config-2.2.0.RELEASE.jar!/com/alibaba/cloud/nacos/endpoint/NacosConfigEndpointAutoConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1002,24 +777,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/order_service/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-129">
           <caret line="46" column="65" selection-start-line="46" selection-start-column="65" selection-end-line="46" selection-end-column="65" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order_service/src/main/resources/application.properties.back">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="29" selection-start-line="29" selection-end-line="29" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order_service/src/main/resources/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -1041,37 +802,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="646" column="25" selection-start-line="646" selection-start-column="25" selection-end-line="646" selection-end-column="25" />
-          <folding>
-            <element signature="e#26565#26566#0" expanded="true" />
-            <element signature="e#26601#26602#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order_service/src/main/java/com/bit/order_service/OrderServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order_service/src/main/java/com/rule/RibbonConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/order_service/src/main/java/com/rule/RibbonConfiguration.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.3.RELEASE/spring-web-5.2.3.RELEASE.jar!/org/springframework/web/bind/annotation/ExceptionHandler.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -1079,65 +810,174 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/order_service/src/main/java/com/bit/config/GlobalExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order_service/src/main/java/com/bit/config/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order_service/src/main/java/com/bit/order_service/controller/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1116#1117#0" expanded="true" />
-            <element signature="e#1164#1165#0" expanded="true" />
-            <element signature="e#1491#1492#0" expanded="true" />
-            <element signature="e#1521#1522#0" expanded="true" />
-            <element signature="e#1643#1644#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order_service/src/main/java/com/bit/order_service/config/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order_service/src/main/java/com/bit/order_service/config/GlobalExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret column="37" selection-start-column="37" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/order_service/src/main/java/com/bit/config/GlobalExceptionHandler.java" />
+    <entry file="file://$PROJECT_DIR$/order_service/src/main/java/com/bit/config/WebConfig.java" />
     <entry file="file://$PROJECT_DIR$/pay_service/src/main/java/com/bit/pay_service/config/GlobalExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/feign_apis/interceptors/ss.java" />
+    <entry file="file://$PROJECT_DIR$/pay_service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="35" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="352" column="30" selection-start-line="352" selection-start-column="30" selection-end-line="352" selection-end-column="30" />
+          <folding>
+            <element signature="e#26565#26566#0" expanded="true" />
+            <element signature="e#26601#26602#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_service/src/main/java/com/bit/product_service/ProductServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/rule/OrderCenterFeignConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-84">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order_service/src/main/resources/application.properties.back">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order_service/src/main/java/com/bit/rule/RibbonConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order_service/src/main/java/com/bit/service/config/GlobalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order_service/src/main/java/com/bit/service/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="64" column="78" selection-start-line="64" selection-start-column="78" selection-end-line="64" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order_service/src/main/java/com/bit/service/OrderServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/service/feign_apis/client/PayServiceClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/service/feign_apis/client/ProductServiceClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/service/feign_apis/interceptors/ProductSericeInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_service/src/main/java/com/bit/product_service/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order_service/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product_service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="584" column="9" selection-start-line="584" selection-start-column="9" selection-end-line="584" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="472" column="32" lean-forward="true" selection-start-line="472" selection-start-column="32" selection-end-line="472" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order_service/src/main/java/com/bit/service/config/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/product_service/src/main/java/com/bit/product_service/config/GlobalExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="450">
+          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
         </state>
       </provider>
     </entry>

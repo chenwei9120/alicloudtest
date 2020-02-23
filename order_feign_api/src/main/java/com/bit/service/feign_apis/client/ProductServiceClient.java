@@ -1,7 +1,7 @@
-package com.bit.apis;
+package com.bit.service.feign_apis.client;
 
 import com.bit.model.Product;
-import com.rule.OrderCenterFeignConfig;
+import com.bit.rule.OrderCenterFeignConfig;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -19,4 +19,7 @@ public interface ProductServiceClient {
 
     @RequestMapping(value = "/product/get/{id}")
     Product getProductById(@PathVariable("id") Long id);
+
+    @RequestMapping(value="/product/timeout")
+    void timeoutAction();
 }

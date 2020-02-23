@@ -1,4 +1,4 @@
-package com.bit.apis;
+package com.bit.service.feign_apis.client;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PathVariable;

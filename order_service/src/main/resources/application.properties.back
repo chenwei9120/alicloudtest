@@ -4,7 +4,7 @@ spring.application.name=order_service
 spring.cloud.nacos.discovery.server-addr=127.0.0.1:8848
 spring.cloud.nacos.discovery.namespace=0a7f9a48-14cb-4ce4-b48b-a31f06567575
 
-ribbon.connectTimeout=3000
+ribbon.connectTimeout=5000
 ribbon.readTimeout=5000
 ribbon.http.client.enabled=true
 ribbon.MaxAutoRetries=1

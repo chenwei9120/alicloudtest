@@ -1,4 +1,4 @@
-package com.rule;
+package com.bit.service.feign_apis.interceptors;
 
 import feign.RequestInterceptor;
 import feign.RequestTemplate;

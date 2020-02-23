@@ -26,4 +26,15 @@ public class ProductController {
         product.setName("食用葵花油");
         return product;
     }
+
+    @RequestMapping(value="/timeout")
+    public void timeoutAction() {
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } finally {
+            System.out.println("product timeout finished.");
+        }
+    }
 }

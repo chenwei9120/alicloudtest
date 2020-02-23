@@ -16,7 +16,7 @@ import java.io.IOException;
  * @Description TODO
  * @createTime 2020年02月21日 09:01:00
  */
-@ControllerAdvice(basePackages = {"com.bit.order_service"})
+@ControllerAdvice(basePackages = {"com.bit.pay_service"})
 public class GlobalExceptionHandler {
 
     private static final Logger log = LoggerFactory.getLogger(GlobalExceptionHandler.class);
