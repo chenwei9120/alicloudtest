@@ -19,6 +19,8 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/nacos_config/pom.xml" />
+        <option value="$PROJECT_DIR$/../nacos-examples-master/pom.xml" />
         <option value="D:/Code/Java/springcloud/spring-cloud-mall/admin-server/pom.xml" />
         <option value="D:/Code/Java/springcloud/spring-cloud-mall/config-server/pom.xml" />
         <option value="D:/Code/Java/springcloud/spring-cloud-mall/erureka-server/pom.xml" />
@@ -27,8 +29,6 @@
         <option value="D:/Code/Java/springcloud/spring-cloud-mall/service-member/pom.xml" />
         <option value="D:/Code/Java/springcloud/spring-cloud-mall/service-order/pom.xml" />
         <option value="D:/Code/Java/springcloud/spring-cloud-mall/service-product/pom.xml" />
-        <option value="$PROJECT_DIR$/nacos_config/pom.xml" />
-        <option value="$PROJECT_DIR$/../nacos-examples-master/pom.xml" />
       </set>
     </option>
   </component>

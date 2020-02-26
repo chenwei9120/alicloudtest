@@ -27,7 +27,7 @@ public class OrderCenterFeignConfig {
         //return Logger.Level.NONE;
     }
 
-    @Bean
+    //@Bean
     public RequestInterceptor requestInterceptor() {
         return new ProductSericeInterceptor();
     }
