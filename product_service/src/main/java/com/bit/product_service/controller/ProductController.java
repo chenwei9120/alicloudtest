@@ -2,6 +2,7 @@ package com.bit.product_service.controller;
 
 import com.bit.model.Product;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -17,7 +18,6 @@ import java.util.Date;
 @RestController
 @RequestMapping("/product")
 public class ProductController {
-
     @RequestMapping("/get/{id}")
     public Product getProductById(@PathVariable Long id) {
         Product product = new Product();
@@ -36,5 +36,10 @@ public class ProductController {
         } finally {
             System.out.println("product timeout finished.");
         }
+    }
+
+    @RequestMapping("/gateWay4Header")
+    public Object gateWay4Header(@RequestHeader("X-Request-Company") String company) {
+        return "gateWay拿到请求头"+company;
     }
 }

@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/order_feign_api/pom.xml" />
         <option value="$PROJECT_DIR$/common/pom.xml" />
         <option value="$PROJECT_DIR$/parent_depency/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway_demo/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

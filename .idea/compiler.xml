@@ -16,7 +16,9 @@
     <bytecodeTargetLevel>
       <module name="admin-server" target="1.8" />
       <module name="config-server" target="1.8" />
+      <module name="demo" target="1.8" />
       <module name="eureka-server" target="1.8" />
+      <module name="gateway_demo" target="1.8" />
       <module name="mall" target="1.5" />
       <module name="mall-portal" target="1.8" />
       <module name="nacos-cmdb-plugin-example" target="1.7" />

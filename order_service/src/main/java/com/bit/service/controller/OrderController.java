@@ -1,5 +1,6 @@
 package com.bit.service.controller;
 
+import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.bit.service.feign_apis.client.PayServiceClient;
 import com.bit.service.feign_apis.client.ProductServiceClient;
 import com.bit.model.Product;
@@ -31,8 +32,14 @@ public class OrderController {
     @Autowired(required = false)
     private PayServiceClient payServiceClient;
 
-    @RequestMapping("/get/product/{id}")
-    public Product getProductById(@PathVariable Long id) {
+//    @RequestMapping("/get/product/{id}")
+//    public Product getProductById(@PathVariable Long id) {
+//        return productServiceClient.getProductById(id);
+//    }
+
+    @SentinelResource("get-product")
+    @RequestMapping("/get/product")
+    public Product getProductById(Long id) {
         return productServiceClient.getProductById(id);
     }
 
