@@ -31,3 +31,16 @@
 #
 
 
+server.port=8080
+management.endpoints.web.exposure.include=*
+#spring.cloud.sentinel.transport.dashboard=localhost:9999
+#spring.cloud.sentinel.filter.enabled=true
+order.service.version=2020
+server.servlet.context-path=/order
+
+spring.datasource.druid.url= jdbc:mysql://192.168.1.2:3306/orders?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8
+spring.datasource.druid.username=root
+spring.datasource.druid.password=root
+spring.datasource.druid.driver-class-beanName=com.mysql.cj.jdbc.Driver
+
+
