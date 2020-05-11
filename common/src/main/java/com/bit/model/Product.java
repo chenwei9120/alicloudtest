@@ -1,24 +1,51 @@
 package com.bit.model;
 
-import lombok.Getter;
-import lombok.Setter;
-
 import java.io.Serializable;
-import java.util.Date;
 
-/**
- * @author chenwei
- * @version 1.0.0
- * @ClassName Product.java
- * @Description TODO
- * @createTime 2020年02月15日 22:38:00
- */
-@Getter
-@Setter
 public class Product implements Serializable {
     private Long id;
 
     private String name;
 
-    private Date createDate;
+    private String imgs;
+
+    private static final long serialVersionUID = 1L;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getImgs() {
+        return imgs;
+    }
+
+    public void setImgs(String imgs) {
+        this.imgs = imgs;
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append(getClass().getSimpleName());
+        sb.append(" [");
+        sb.append("Hash = ").append(hashCode());
+        sb.append(", id=").append(id);
+        sb.append(", name=").append(name);
+        sb.append(", imgs=").append(imgs);
+        sb.append(", serialVersionUID=").append(serialVersionUID);
+        sb.append("]");
+        return sb.toString();
+    }
 }

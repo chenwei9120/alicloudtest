@@ -12,10 +12,13 @@
         <option value="$PROJECT_DIR$/order_service/pom.xml" />
         <option value="$PROJECT_DIR$/product_service/pom.xml" />
         <option value="$PROJECT_DIR$/pay_service/pom.xml" />
-        <option value="$PROJECT_DIR$/order_feign_api/pom.xml" />
         <option value="$PROJECT_DIR$/common/pom.xml" />
         <option value="$PROJECT_DIR$/parent_depency/pom.xml" />
         <option value="$PROJECT_DIR$/gateway_demo/pom.xml" />
+        <option value="$PROJECT_DIR$/member_service/pom.xml" />
+        <option value="$PROJECT_DIR$/parent-depency/pom.xml" />
+        <option value="$PROJECT_DIR$/pay-service/pom.xml" />
+        <option value="$PROJECT_DIR$/order-feign-api/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

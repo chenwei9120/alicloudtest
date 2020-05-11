@@ -1,0 +1,9 @@
+ribbon:
+  ReadTimeout:1000
+  ConnectTimeout:1000
+  MaxAutoRetries:1
+  MaxAutoRetriesNextServer:2
+  OkToRetryOnAllOperations:false
+http:
+client:
+  enabled:true

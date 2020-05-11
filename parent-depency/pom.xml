@@ -9,7 +9,7 @@
     <groupId>com.bit</groupId>
     <artifactId>parent-depency</artifactId>
     <version>1.0</version>
-    <packaging>pom</packaging>spring.cloud.commons.versionspring.cloud.commons.version
+    <packaging>pom</packaging>
     <name>parent-depency</name>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -21,6 +21,7 @@
         <spring-cloud-commons.version>2.2.0.RELEASE</spring-cloud-commons.version>
         <mybatis-spring-boot-starter.version>2.1.0</mybatis-spring-boot-starter.version>
         <druid-spring-boot-starter.version>1.1.10</druid-spring-boot-starter.version>
+        <pagehelper-starter.version>1.2.10</pagehelper-starter.version>
     </properties>
 
     <dependencyManagement>
@@ -36,6 +37,7 @@
                 <artifactId>druid-spring-boot-starter</artifactId>
                 <version>${druid-spring-boot-starter.version}</version>
             </dependency>
+
             <dependency>
                 <groupId>com.alibaba.cloud</groupId>
                 <artifactId>spring-cloud-alibaba-dependencies</artifactId>
@@ -48,6 +50,12 @@
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-starter-openfeign</artifactId>
                 <version>${spring-cloud-openfeign.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.github.pagehelper</groupId>
+                <artifactId>pagehelper-spring-boot-starter</artifactId>
+                <version>${pagehelper-starter.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

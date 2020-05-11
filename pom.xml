@@ -6,11 +6,17 @@
     <artifactId>ali_cloud</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
+    <parent>
+        <groupId>com.bit</groupId>
+        <artifactId>parent-depency</artifactId>
+        <version>1.0</version>
+    </parent>
     <modules>
-        <module>order_service</module>
-        <module>product_service</module>
-        <module>pay_service</module>
-        <module>order_feign_api</module>
+        <module>order-service</module>
+        <module>product-service</module>
+        <module>pay-service</module>
+        <module>order-feign-api</module>
         <module>common</module>
+        <module>member-service</module>
     </modules>
 </project>

@@ -1,7 +1,7 @@
 package com.bit.mall.feign_apis.client;
 
+import com.bit.mall.feign_apis.config.ProductServiceConfig;
 import com.bit.model.Product;
-import com.bit.rule.OrderCenterFeignConfig;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @createTime 2020年02月15日 21:27:00
  */
 
-@FeignClient(name = "product-mall",configuration = OrderCenterFeignConfig.class)
+@FeignClient(name = "product-service",configuration = ProductServiceConfig.class)
 public interface ProductServiceClient {
 
     @RequestMapping(value = "/product/get/{id}")

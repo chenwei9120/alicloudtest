@@ -2,20 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a16c5e-79c6-467a-84d4-0296615a10da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gateway_demo/src/main/java/com/bit/gateway_demo/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway_demo/src/main/resources/application-before-route.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway_demo/src/main/resources/application-filter.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway_demo/src/main/resources/application-path.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product_service/src/main/java/com/bit/product_service/controller/ProductStoreController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/com/bit/service/config/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/order_service/src/main/java/com/bit/service/config/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/com/bit/service/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order_service/src/main/java/com/bit/service/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_service/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order_service/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/src/main/java/com/bit/product_service/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/src/main/java/com/bit/product_service/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/bit/model/MallOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/bit/model/MallOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/bit/model/MallOrderDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/bit/model/MallOrderDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/bit/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/bit/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/bit/util/Encrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/bit/util/Encrypt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member_service/src/main/resources/bootstrap.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-feign-api/src/main/java/com/bit/mall/feign_apis/client/ProductServiceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-feign-api/src/main/java/com/bit/mall/feign_apis/client/ProductServiceClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-feign-api/src/main/java/com/bit/mall/feign_apis/config/ProductServiceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-feign-api/src/main/java/com/bit/mall/feign_apis/config/ProductServiceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/bit/mall/controller/OrderController2.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/bit/mall/controller/OrderController2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/com/bit/mall/OrderServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/com/bit/mall/config/DruidConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/com/bit/mall/config/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/com/bit/mall/config/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/com/bit/mall/controller/OrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/com/bit/mall/mapper/MallOrderDetailMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/com/bit/mall/mapper/MallOrderMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/com/bit/mall/model/MallOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/com/bit/mall/model/MallOrderDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/com/bit/rule/RibbonConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/src/main/resources/application.properties.back" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/src/main/resources/bootstrap.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/src/main/resources/com/bit/mall/mapper/MallOrderDetailMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_service/src/main/resources/com/bit/mall/mapper/MallOrderMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent-depency/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parent-depency/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay_service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay_service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay_service/src/main/java/com/bit/pay_service/PayServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay_service/src/main/java/com/bit/pay_service/config/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay_service/src/main/java/com/bit/pay_service/controller/PayController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay_service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/bit/mall/config/MybatisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/bit/mall/config/MybatisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/bit/mall/config/PageHelperConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/bit/mall/config/PageHelperConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/bit/mall/controller/ProductController2.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/bit/mall/controller/ProductController2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/bit/mall/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/bit/mall/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/src/main/java/com/bit/mall/ProductServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/src/main/java/com/bit/mall/config/DruidConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/src/main/java/com/bit/mall/controller/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/src/main/java/com/bit/mall/controller/ProductStoreController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/src/main/java/com/bit/mall/mapper/ProductMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/src/main/java/com/bit/mall/util/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_service/src/main/resources/com/bit/mall/mapper/ProductMapper.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/nacos_demo/target/" />
@@ -75,6 +113,13 @@
     <ignored path="$PROJECT_DIR$/order_service_sentinel/target/" />
     <ignored path="$PROJECT_DIR$/gateway_demo/target/" />
     <ignored path="$PROJECT_DIR$/demo/target/" />
+    <ignored path="$PROJECT_DIR$/member_service/target/" />
+    <ignored path="$PROJECT_DIR$/parent-depency/target/" />
+    <ignored path="$PROJECT_DIR$/pay-service/target/" />
+    <ignored path="$PROJECT_DIR$/order-service/target/" />
+    <ignored path="$PROJECT_DIR$/product-service/target/" />
+    <ignored path="$PROJECT_DIR$/order-feign-api/target/" />
+    <ignored path="$PROJECT_DIR$/member-service/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +140,17 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="derby-data" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="derby-data" type="feb32156:DbDataSourceImpl" />
+        <item name="NACOS: schema" type="6aa84934:DerbyImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -170,80 +225,95 @@
     <session id="955721513">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.0" value="4" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="15" />
+          <entry key="project.open.time.0" value="5" />
+          <entry key="project.open.time.1" value="6" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.18" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.18" value="2" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="back" value="4" />
-          <entry key="class" value="2" />
-          <entry key="java" value="66" />
-          <entry key="pom" value="3" />
-          <entry key="properties" value="24" />
-          <entry key="xml" value="32" />
-          <entry key="yml" value="14" />
+          <entry key="USERS" value="7" />
+          <entry key="back" value="6" />
+          <entry key="bak" value="2" />
+          <entry key="class" value="14" />
+          <entry key="java" value="176" />
+          <entry key="pom" value="9" />
+          <entry key="properties" value="46" />
+          <entry key="sql" value="2" />
+          <entry key="xml" value="89" />
+          <entry key="yml" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="66" />
-          <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Properties" value="24" />
-          <entry key="XML" value="35" />
-          <entry key="YAML" value="14" />
+          <entry key="CLASS" value="14" />
+          <entry key="Database Element" value="7" />
+          <entry key="JAVA" value="176" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Properties" value="46" />
+          <entry key="Scratch" value="2" />
+          <entry key="XML" value="100" />
+          <entry key="YAML" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="696" />
-          <entry key="properties" value="739" />
-          <entry key="xml" value="150" />
-          <entry key="yml" value="380" />
+          <entry key="cell" value="5" />
+          <entry key="dummy" value="3" />
+          <entry key="java" value="1668" />
+          <entry key="properties" value="1013" />
+          <entry key="xml" value="501" />
+          <entry key="yml" value="392" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="696" />
-          <entry key="Properties" value="739" />
-          <entry key="XML" value="150" />
-          <entry key="YAML" value="380" />
+          <entry key="JAVA" value="1668" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Properties" value="1013" />
+          <entry key="SQL" value="1" />
+          <entry key="Scratch" value="5" />
+          <entry key="XML" value="500" />
+          <entry key="YAML" value="392" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/order-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/parent-depency/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product_service/pom.xml">
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parent_depency/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="74" lean-forward="true" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="74" />
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -257,39 +327,43 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>c</find>
       <find>custom.parent.version</find>
+      <find>order_service</find>
       <find>pay-service</find>
-      <find>cli</find>
-      <find>8090</find>
-      <find>spring‐cloud‐starter‐alibaba‐sentinel</find>
-      <find>applicationListener</find>
-      <find>credit-service</find>
-      <find>connectTimeout</find>
-      <find>con</find>
-      <find>connect-timeout</find>
-      <find>1000</find>
-      <find>RestTemplate</find>
-      <find>&lt;artifactId&gt;spring-boot-starter&lt;/artifactId&gt;</find>
-      <find>context-path</find>
-      <find>dashboard</find>
-      <find>:</find>
-      <find>spring-boot-starter-actuator</find>
-      <find>spring.cloud.sentinel.transport.dashboard</find>
-      <find>sentinel</find>
-      <find>feign</find>
-      <find>common</find>
-      <find>spring.cloud.sentinel.transport.dashboard=localhost:9999</find>
-      <find>server.prot</find>
-      <find>namespace: 0a7f9a48-14cb-4ce4-b48b-a31f06567575</find>
-      <find>spring-cloud-alibaba.version</find>
-      <find>order.service.version</find>
-      <find>0a7f9a48-14cb-4ce4-b48b-a31f06567575</find>
-      <find>sentinel.filter</find>
-      <find>ExceptionHandlingWebHandler</find>
+      <find>service-registry</find>
+      <find>pring-cloud-starter-alibaba-nacos-discovery</find>
+      <find>spring-cloud-commons</find>
+      <find>spring-cloud-starter-alibaba-nacos-config</find>
+      <find>com.bit.mall.mapper</find>
+      <find>com.bit.model</find>
+      <find>com.bit.mall.model</find>
+      <find>com.bit.mall.dao</find>
+      <find>selectByPrimaryKey</find>
+      <find>Rule</find>
+      <find>RibbonConfiguration</find>
+      <find>RibbonClient</find>
+      <find>ribbon:</find>
       <find>product-service</find>
+      <find>RestTemplate</find>
+      <find>logging.</find>
+      <find>IRule</find>
+      <find>retry</find>
+      <find>management.endpoints.web.exposure.include</find>
+      <find>Refresh</find>
+      <find>center</find>
+      <find>1.2</find>
+      <find>order.service.version</find>
+      <find>BCryptPasswordEncoder</find>
+      <find>new BCryptPasswordEncoder()</find>
+      <find>solr.version-8.4.1</find>
     </findStrings>
     <replaceStrings>
       <replace>=</replace>
+      <replace>spring.cloud.alibaba.version</replace>
+      <replace>parent-depency</replace>
+      <replace>mybatis.spring-boot-starter</replace>
+      <replace>com.bit.model</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -298,57 +372,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/interceptors/ProductSericeInterceptor.java" />
-        <option value="$PROJECT_DIR$/order_feign_api/src/main/java/com/config/OrderCenterFeignConfig.java" />
-        <option value="$PROJECT_DIR$/order_service/src/main/resources/boostrap.properties" />
-        <option value="$PROJECT_DIR$/order_service/src/main/java/com/bit/OrderServiceApplication.java" />
-        <option value="$PROJECT_DIR$/order_service/src/main/java/com/config/WebConfig.java" />
-        <option value="$PROJECT_DIR$/order_service/src/main/java/com/config/CustomAdvice.java" />
-        <option value="$PROJECT_DIR$/order_service/src/main/java/com/config/GlobalExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/order_service/src/main/java/com/bit/GlobalExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/order_service/src/main/java/com/rule/RibbonConfiguration.java" />
-        <option value="$PROJECT_DIR$/order_service/src/main/java/com/bit/config/GlobalExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/order_service/src/main/java/com/bit/order_service/config/GlobalExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/pay_service/src/main/java/com/bit/pay_service/config/GlobalExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/feign_apis/interceptors/ProductSericeInterceptor.java" />
-        <option value="$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/feign_apis/client/ProductServiceClient.java" />
-        <option value="$PROJECT_DIR$/order_service/src/main/java/com/bit/order_service/controller/OrderController.java" />
-        <option value="$PROJECT_DIR$/order_service/src/main/java/com/bit/order_service/config/WebConfig.java" />
-        <option value="$PROJECT_DIR$/order_service/src/main/java/com/bit/order_service/OrderServiceApplication.java" />
-        <option value="$PROJECT_DIR$/order_service/src/main/java/com/bit/rule/RibbonConfiguration.java" />
-        <option value="$PROJECT_DIR$/order_service/src/main/resources/application.properties.back" />
-        <option value="$PROJECT_DIR$/order_service/src/main/java/com/bit/service/config/WebConfig.java" />
-        <option value="$PROJECT_DIR$/product_service/src/main/java/com/bit/product_service/config/GlobalExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/order_service/src/main/java/com/bit/service/OrderServiceApplication.java" />
+        <option value="$PROJECT_DIR$/order_service/src/main/java/com/bit/mall/model/MallOrderDetail.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/bit/model/MallOrder.java" />
+        <option value="$PROJECT_DIR$/product_service/src/main/java/com/bit/mall/mapper/ProductMapper.java" />
+        <option value="$PROJECT_DIR$/product_service/src/main/java/com/bit/mall/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/bit/model/Product.java" />
         <option value="$PROJECT_DIR$/order_service/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/order_service_sentinel/src/main/java/com/bit/order_service_sentinel/controller/OrderController.java" />
-        <option value="$PROJECT_DIR$/order_service_sentinel/src/main/java/com/bit/order_service_sentinel/OrderServiceSentinelApplication.java" />
-        <option value="$PROJECT_DIR$/product_service/src/main/java/com/bit/product_service/ProductServiceApplication.java" />
-        <option value="$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/rule/OrderCenterFeignConfig.java" />
-        <option value="$PROJECT_DIR$/order_service_sentinel/src/main/java/com/bit/service/controller/SentinelController.java" />
-        <option value="$PROJECT_DIR$/order_service_sentinel/pom.xml" />
-        <option value="$PROJECT_DIR$/order_service_sentinel/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/order_service_sentinel/src/main/java/com/bit/service/OrderServiceSentinelApplication.java" />
-        <option value="$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/service/feign_apis/client/ProductServiceClient.java" />
-        <option value="$PROJECT_DIR$/product_service/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/order_service_sentinel/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/order_service_sentinel/src/main/java/com/bit/service/controller/OrderController.java" />
-        <option value="$PROJECT_DIR$/parent_depency/pom.xml" />
-        <option value="$PROJECT_DIR$/pay_service/pom.xml" />
-        <option value="$PROJECT_DIR$/product_service/pom.xml" />
-        <option value="$PROJECT_DIR$/order_service/pom.xml" />
-        <option value="$PROJECT_DIR$/order_service/src/main/java/com/bit/service/controller/OrderController.java" />
-        <option value="$PROJECT_DIR$/order_service/src/main/java/com/bit/service/config/GlobalExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/order_service/src/main/java/com/bit/mall/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/order_service/src/main/java/com/bit/mall/config/DruidConfig.java" />
+        <option value="$PROJECT_DIR$/order_service/src/main/java/com/bit/mall/config/GlobalExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/order_service/src/main/java/com/bit/mall/config/WebConfig.java" />
         <option value="$PROJECT_DIR$/order_service/src/main/resources/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/product_service/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/gateway_demo/src/main/resources/application-before-route.yml" />
-        <option value="$PROJECT_DIR$/gateway_demo/src/main/resources/application-filter.yml" />
-        <option value="$PROJECT_DIR$/gateway_demo/pom.xml" />
-        <option value="$PROJECT_DIR$/product_service/src/main/java/com/bit/product_service/controller/ProductController.java" />
-        <option value="$PROJECT_DIR$/gateway_demo/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/gateway_demo/src/main/resources/application-path.yml" />
-        <option value="$PROJECT_DIR$/product_service/src/main/java/com/bit/product_service/controller/ProductStoreController.java" />
-        <option value="$PROJECT_DIR$/gateway_demo/src/main/java/com/bit/gateway_demo/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/order_service/pom.xml" />
+        <option value="$PROJECT_DIR$/product_service/pom.xml" />
+        <option value="$PROJECT_DIR$/product_service/src/main/java/com/bit/mall/config/DruidConfig.java" />
+        <option value="$PROJECT_DIR$/parent_depency/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/product-service/src/main/java/com/bit/mall/config/DruidConfig.java" />
+        <option value="$PROJECT_DIR$/member-service/pom.xml" />
+        <option value="$PROJECT_DIR$/order-feign-api/pom.xml" />
+        <option value="$PROJECT_DIR$/order_feign_api/pom.xml" />
+        <option value="$PROJECT_DIR$/pay-service/pom.xml" />
+        <option value="$PROJECT_DIR$/order-feign-api/src/main/java/com/bit/mall/feign_apis/client/PayServiceClient.java" />
+        <option value="$PROJECT_DIR$/order-service/src/main/resources/com/bit/mall/dao/MallOrderDetailMapper.xml" />
+        <option value="$PROJECT_DIR$/product-service/src/main/resources/com/bit/mall/dao/ProductMapper.xml" />
+        <option value="$PROJECT_DIR$/product-service/src/main/resources/com/bit/mall/mapper/ProductMapper.xml" />
+        <option value="$PROJECT_DIR$/product-service/src/main/java/com/bit/mall/config/MybatisConfig.java" />
+        <option value="$PROJECT_DIR$/parent-depency/pom.xml" />
+        <option value="$PROJECT_DIR$/product-service/pom.xml" />
+        <option value="$PROJECT_DIR$/product-service/src/main/java/com/bit/mall/config/PageHelperConfig.java" />
+        <option value="$PROJECT_DIR$/product-service/src/main/java/com/bit/mall/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/product-service/src/main/java/com/bit/mall/dao/ProductDao.java" />
+        <option value="$PROJECT_DIR$/product-service/src/main/resources/com/bit/mall/dao/ProductDao.xml" />
+        <option value="$PROJECT_DIR$/product-service/src/main/java/com/bit/mall/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/product-service/src/main/java/com/bit/mall/controller/ProductController2.java" />
+        <option value="$PROJECT_DIR$/product-service/src/main/java/com/bit/mall/ProductServiceApplication.java" />
+        <option value="$PROJECT_DIR$/product-service/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/product-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/order-service/src/main/java/com/bit/mall/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/order-service/src/main/java/com/bit/mall/controller/OrderController2.java" />
+        <option value="$PROJECT_DIR$/order-service/src/main/resources/abc.yml" />
+        <option value="$PROJECT_DIR$/order-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/order-feign-api/src/main/java/com/bit/mall/feign_apis/config/ProductServiceConfig.java" />
+        <option value="$PROJECT_DIR$/order-service/src/main/resources/application.properties.bak" />
+        <option value="$PROJECT_DIR$/order-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/order-feign-api/src/main/java/com/bit/mall/feign_apis/client/ProductServiceClient.java" />
+        <option value="$PROJECT_DIR$/order-service/src/main/java/com/bit/mall/OrderServiceApplication.java" />
+        <option value="$PROJECT_DIR$/order-service/src/main/java/com/bit/mall/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/order-service/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/order-service/pom.xml" />
+        <option value="$PROJECT_DIR$/common/pom.xml" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/bit/util/Encrypt.java" />
       </list>
     </option>
   </component>
@@ -371,31 +445,22 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="gateway_demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="parent-depency" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="gateway_demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="parent-depency" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="product_service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="product_service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-68" />
-    <option name="y" value="506" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
+    <option name="x" value="640" />
+    <option name="y" value="55" />
+    <option name="width" value="1270" />
+    <option name="height" value="865" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -403,6 +468,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -413,23 +479,18 @@
             <path>
               <item name="ali_cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="ali_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="parent_depency" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ali_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ali_cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="product_service" type="462c0819:PsiDirectoryNode" />
+              <item name="parent-depency" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="derby" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -437,15 +498,16 @@
     <property name="SearchEverywhereHistoryKey" value="nacos-version&#9;FILE&#9;jar://D:/M2/repository/com/alibaba/nacos/nacos-common/1.1.4/nacos-common-1.1.4.jar!/nacos-version.txt" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585203469747" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589194478112" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/parent-depency" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -453,17 +515,18 @@
       <recent name="com.bit" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bit.mall.controller" />
+      <recent name="com.bit.mall.config" />
       <recent name="com.bit.order_service_sentinel.controller" />
       <recent name="com.bit.product_service.config" />
       <recent name="com.bit.pay_service.config" />
-      <recent name="com.bit.order_service.order_api" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Code\ali_cloud\gateway_demo\src\main\resources" />
+      <recent name="C:\Code\ali_cloud\product-service\src\main\resources" />
+      <recent name="C:\Code\ali_cloud\common\src\main\java\com\bit\model" />
+      <recent name="C:\Code\ali_cloud\product_service\src\main\java\com\bit\mall" />
       <recent name="C:\Code\ali_cloud\product_service\src\main\resources" />
-      <recent name="C:\Code\ali_cloud\order_service_sentinel\src\main\resources" />
-      <recent name="E:\Code\Java\ali_cloud" />
-      <recent name="E:\Code\Java\ali_cloud\parent_depency" />
+      <recent name="C:\Code\ali_cloud\order_service\src\main\java\com\bit\mall" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -482,18 +545,65 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.15505464" />
+    <option name="contentProportion" value="0.15027322" />
   </component>
-  <component name="RunManager" selected="Spring Boot.GatewayDemoApplication">
-    <configuration name="NacosDemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.nacos_demo.NacosDemoApplication" />
-      <module name="nacos_config" />
+  <component name="RunManager" selected="Application.Encrypt">
+    <configuration name="Encrypt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bit.util.Encrypt" />
+      <module name="common" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.study.nacos_demo.*" />
+          <option name="PATTERN" value="com.bit.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="parent-depency" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="parent-depency" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -518,15 +628,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MemberServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="member-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.way_mall.member_service.MemberServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="order_service" />
+      <module name="order-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bit.service.*" />
+          <option name="PATTERN" value="com.bit.mall.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bit.service.OrderServiceApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bit.mall.OrderServiceApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -536,7 +653,7 @@
       <module name="order_service_sentinel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bit.service.*" />
+          <option name="PATTERN" value="com.bit.mall.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -546,21 +663,22 @@
       </method>
     </configuration>
     <configuration name="PayServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="pay_service" />
+      <module name="pay-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bit.pay_service.PayServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="product_service" />
+    <configuration name="ProductServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="product-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bit.product_service.*" />
+          <option name="PATTERN" value="com.bit.mall.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bit.product_service.ProductServiceApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bit.mall.ProductServiceApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -568,19 +686,20 @@
     <list>
       <item itemvalue="Spring Boot.PayServiceApplication" />
       <item itemvalue="Spring Boot.DemoApplication" />
-      <item itemvalue="Application.NacosDemoApplication" />
+      <item itemvalue="Spring Boot.MemberServiceApplication" />
       <item itemvalue="Spring Boot.ProductServiceApplication" />
       <item itemvalue="Spring Boot.OrderServiceApplication" />
       <item itemvalue="Spring Boot.OrderServiceSentinelApplication" />
       <item itemvalue="Spring Boot.GatewayDemoApplication" />
+      <item itemvalue="Application.Encrypt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.GatewayDemoApplication" />
-        <item itemvalue="Spring Boot.ProductServiceApplication" />
+        <item itemvalue="Application.Encrypt" />
         <item itemvalue="Spring Boot.OrderServiceApplication" />
+        <item itemvalue="Spring Boot.ProductServiceApplication" />
+        <item itemvalue="Spring Boot.GatewayDemoApplication" />
         <item itemvalue="Spring Boot.OrderServiceSentinelApplication" />
-        <item itemvalue="Application.NacosDemoApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -617,18 +736,32 @@
       <workItem from="1582703506897" duration="3572000" />
       <workItem from="1582707112506" duration="10063000" />
       <workItem from="1584230306858" duration="17069000" />
-      <workItem from="1585203134775" duration="243000" />
+      <workItem from="1585203134775" duration="3263000" />
+      <workItem from="1585405431709" duration="923000" />
+      <workItem from="1587358787765" duration="14258000" />
+      <workItem from="1587490243083" duration="620000" />
+      <workItem from="1587541191946" duration="1784000" />
+      <workItem from="1587746399230" duration="14654000" />
+      <workItem from="1587945095278" duration="47000" />
+      <workItem from="1587945234789" duration="51000" />
+      <workItem from="1587945303660" duration="3532000" />
+      <workItem from="1587968236481" duration="894000" />
+      <workItem from="1587969327326" duration="10332000" />
+      <workItem from="1588052080691" duration="11856000" />
+      <workItem from="1588211313496" duration="18593000" />
+      <workItem from="1589184635908" duration="1446000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198433000" />
+    <option name="totallyTimeSpent" value="280443000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26407507" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7357294" visible="true" weight="0.16487935" />
+      <window_info id="Structure" order="1" sideWeight="0.2642706" side_tool="true" weight="0.24597855" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -637,7 +770,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38668555" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.12181303" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.042432815" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -648,19 +781,20 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.36260623" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.4348442" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49932975" weight="0.41018388" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49932975" weight="0.42917848" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="16" weight="0.3286119" />
       <window_info anchor="bottom" id="Analysis" order="17" />
       <window_info anchor="bottom" id="Problems" order="18" />
+      <window_info anchor="bottom" id="Database Console" order="19" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.26742628" />
-      <window_info anchor="right" id="Database" order="6" weight="0.3297587" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.23659517" />
+      <window_info anchor="right" id="Database" order="6" weight="0.18498659" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
@@ -677,33 +811,55 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://D:/Technical/TuLing/3期/微服务专题/tuling3-springcloud-alibaba/tulingvip-cloud-alibaba/tulingvip02-ms-alibaba-ribbon-order/src/main/java/com/tuling/config/WebConfig.java</url>
-          <line>31</line>
+          <line>36</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/feign_apis/config/ProductCenterFeignConfig.java</url>
+          <url>file://$PROJECT_DIR$/order-feign-api/src/main/java/com/bit/feign_apis/config/ProductCenterFeignConfig.java</url>
           <line>23</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/order_service/src/main/java/com/bit/service/controller/OrderController.java</url>
+          <url>file://$PROJECT_DIR$/order_service/src/main/java/com/bit/mall/controller/OrderController.java</url>
           <line>48</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/order_service/src/main/java/com/bit/service/config/GlobalExceptionHandler.java</url>
+          <url>file://$PROJECT_DIR$/order_service/src/main/java/com/bit/mall/config/GlobalExceptionHandler.java</url>
           <line>26</line>
           <properties />
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product-service/src/main/java/com/bit/mall/controller/ProductController.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product-service/src/main/java/com/bit/mall/controller/ProductController.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>productService.getProductById(id)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>productDao.selectByPrimaryKey(id)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>System.currentTimeMillis() - start</expression-string>
         <language-id>JAVA</language-id>
@@ -739,305 +895,358 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>context.getBean(clazz.getClass())</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>ProductAPI.class</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/order_service/src/main/java/com/bit/config/WebConfig.java" />
-    <entry file="file://$PROJECT_DIR$/pay_service/src/main/java/com/bit/pay_service/config/GlobalExceptionHandler.java">
+    <entry file="file://$MAVEN_REPOSITORY$/com/bit/order_feign_api/1.0-SNAPSHOT/order_feign_api-1.0-SNAPSHOT.pom" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+        <state relative-caret-position="250">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/feign_apis/interceptors/ss.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/System.java">
+    <entry file="file://$PROJECT_DIR$/order-service/src/main/java/com/bit/mall/dao/MallOrderDetailMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="352" column="30" selection-start-line="352" selection-start-column="30" selection-end-line="352" selection-end-column="30" />
+        <state relative-caret-position="76">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/order_service/src/main/java/com/bit/rule/RibbonConfiguration.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.2/mybatis-3.5.2.jar!/org/apache/ibatis/binding/MapperProxy.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="103">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/service/feign_apis/client/PayServiceClient.java">
+    <entry file="file://$PROJECT_DIR$/order-service/src/main/resources/com/bit/mall/dao/MallOrderDetailMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="38">
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/List.java">
+    <entry file="file://$PROJECT_DIR$/order-service/src/main/java/com/bit/mall/model/MallOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="584" column="9" selection-start-line="584" selection-start-column="9" selection-end-line="584" selection-end-column="9" />
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/ArrayList.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/bit/model/MallOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8265">
-          <caret line="472" column="32" selection-start-line="472" selection-start-column="32" selection-end-line="472" selection-end-column="32" />
+        <state relative-caret-position="95">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/service/feign_apis/interceptors/ProductSericeInterceptor.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/bit/model/MallOrderDetail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="37" />
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product_service/src/test/java/com/bit/product_service/ProductServiceApplicationTests.java" />
-    <entry file="file://$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/rule/OrderCenterFeignConfig.java">
+    <entry file="file://$PROJECT_DIR$/order-service/src/main/resources/com/bit/mall/dao/MallOrderMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+        <state relative-caret-position="228">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/order_service_sentinel/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/order_feign_api/src/main/java/com/bit/service/feign_apis/client/ProductServiceClient.java">
+    <entry file="file://$PROJECT_DIR$/product-service/src/main/java/com/bit/mall/config/MybatisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="48" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="48" />
+        <state relative-caret-position="247">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/order_service_sentinel/src/main/resources/application.properties.back" />
-    <entry file="file://$PROJECT_DIR$/order_service/src/test/java/com/bit/service/OrderServiceApplicationTests.java" />
-    <entry file="file://$PROJECT_DIR$/pay_service/src/test/java/com/bit/pay_service/PayServiceApplicationTests.java" />
-    <entry file="file://$PROJECT_DIR$/pay_service/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/bit/model/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="35" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="35" />
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pay_service/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <entry file="file://$PROJECT_DIR$/product-service/src/main/resources/com/bit/mall/dao/ProductDao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-608">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        <state relative-caret-position="152">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product_service/src/main/resources/application.yml123" />
-    <entry file="file://$PROJECT_DIR$/product_service/src/main/java/com/bit/product_service/ProductServiceApplication.java">
+    <entry file="file://$PROJECT_DIR$/product-service/src/main/java/com/bit/mall/config/PageHelperConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+        <state relative-caret-position="342">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product_service/src/main/java/com/bit/product_service/config/GlobalExceptionHandler.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/5.1.8/pagehelper-5.1.8.jar!/com/github/pagehelper/Page.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
+        <state relative-caret-position="114">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-service/src/main/java/com/bit/mall/service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="29" column="57" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-service/src/main/java/com/bit/mall/dao/ProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-service/target/classes/com/bit/mall/controller/ProductController.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="59" column="13" lean-forward="true" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/5.1.8/pagehelper-5.1.8.jar!/com/github/pagehelper/PageHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/5.1.8/pagehelper-5.1.8.jar!/com/github/pagehelper/page/PageMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.1.3.RELEASE/spring-cloud-commons-2.1.3.RELEASE-sources.jar!/org/springframework/cloud/client/serviceregistry/Registration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
           <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons-parent/2.2.0.RELEASE/spring-cloud-commons-parent-2.2.0.RELEASE.pom">
+    <entry file="file://$PROJECT_DIR$/product-service/src/main/java/com/bit/mall/ProductServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171" />
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.2.0.RELEASE/spring-cloud-commons-2.2.0.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        <state relative-caret-position="95">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#1018#1019#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/order_service_sentinel/src/main/resources/application.yml" />
-    <entry file="file://$PROJECT_DIR$/order_service_sentinel/src/main/java/com/bit/service/OrderServiceSentinelApplication.java" />
-    <entry file="file://$PROJECT_DIR$/order_service_sentinel/src/main/java/com/bit/service/controller/SentinelController.java" />
-    <entry file="file://$PROJECT_DIR$/order_service_sentinel/src/main/java/com/bit/service/controller/OrderController.java" />
-    <entry file="file://$USER_HOME$/.m2/settings.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order_service/src/main/resources/application.properties.back">
+    <entry file="file://$PROJECT_DIR$/product-service/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/order_service/src/main/java/com/bit/service/OrderServiceApplication.java">
+    <entry file="file://$PROJECT_DIR$/product-service/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-service/src/main/java/com/bit/mall/config/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-service/src/main/java/com/bit/mall/controller/ProductController2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.1.3.RELEASE/spring-cloud-commons-2.1.3.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/LoadBalanced.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-feign-api/src/main/java/com/bit/mall/feign_apis/client/PayServiceClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-service/src/main/resources/application.yml.bak">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <caret line="55" column="67" lean-forward="true" selection-start-line="55" selection-start-column="67" selection-end-line="55" selection-end-column="67" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.1.3.RELEASE/spring-cloud-commons-2.1.3.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="87" column="13" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/order_service/src/main/java/com/bit/service/config/GlobalExceptionHandler.java">
+    <entry file="file://$PROJECT_DIR$/order-feign-api/src/main/java/com/bit/mall/feign_apis/config/ProductServiceConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/order_service/src/main/java/com/bit/service/config/WebConfig.java">
+    <entry file="file://$PROJECT_DIR$/product-service/src/main/java/com/bit/mall/controller/ProductController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+        <state relative-caret-position="18">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#1486#1487#0" expanded="true" />
+            <element signature="e#1531#1532#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-feign-api/src/main/java/com/bit/mall/feign_apis/interceptors/ProductSericeInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-feign-api/src/main/java/com/bit/rule/OrderCenterFeignConfig.java" />
+    <entry file="file://$PROJECT_DIR$/order-service/src/main/java/com/bit/rule/RibbonConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-service/src/main/resources/application.properties.bak">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="34" selection-end-line="28" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-service/src/main/java/com/bit/mall/config/DruidConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-service/src/main/java/com/bit/mall/OrderServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-service/src/main/java/com/bit/mall/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="68" column="29" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1957#1958#0" expanded="true" />
+            <element signature="e#2015#2016#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a0cda63d-f949-4a65-b0cf-a1dbe63000df/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1939c477-b228-4201-a9ab-80192f5d96b6/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-service/src/main/java/com/bit/mall/controller/OrderController2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="22" column="78" selection-start-line="22" selection-start-column="78" selection-end-line="22" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/order_service/src/main/java/com/bit/service/controller/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order_service/src/main/resources/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/order_service/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway_demo/src/main/resources/application-before-route.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway_demo/src/main/java/com/bit/gateway_demo/GatewayDemoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#330#331#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE.jar!/org/springframework/web/server/handler/ExceptionHandlingWebHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway_demo/src/main/resources/application-filter.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="51" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="11" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_service/src/main/java/com/bit/product_service/controller/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="40" column="36" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_service/src/main/java/com/bit/product_service/controller/ProductStoreController.java">
+    <entry file="file://$PROJECT_DIR$/order-service/src/main/resources/bootstrap.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product_service/src/main/resources/application.properties">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-crypto/5.1.4.RELEASE/spring-security-crypto-5.1.4.RELEASE.jar!/org/springframework/security/crypto/bcrypt/BCryptPasswordEncoder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="108">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gateway_demo/pom.xml">
+    <entry file="das://1939c477-b228-4201-a9ab-80192f5d96b6/schema/NACOS/table/USERS" />
+    <entry file="file://$PROJECT_DIR$/common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-feign-api/src/main/java/com/bit/mall/feign_apis/client/ProductServiceClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="30" column="34" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="34" />
-          <folding>
-            <element signature="n#dependencyManagement#0;n#project#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="76">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gateway_demo/src/main/resources/application-path.yml">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/bit/util/Encrypt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        <state relative-caret-position="323">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.4.RELEASE/spring-web-5.2.4.RELEASE.jar!/org/springframework/web/bind/annotation/RequestParam.class">
+    <entry file="file://$PROJECT_DIR$/order-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        <state relative-caret-position="100">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway_demo/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway_demo/src/main/java/com/bit/gateway_demo/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product_service/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parent_depency/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="74" lean-forward="true" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="74" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parent-depency/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
   </component>
   <component name="masterDetails">
@@ -1092,12 +1301,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>demo</last-edited>
+          <last-edited>parent-depency</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

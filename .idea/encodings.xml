@@ -3,13 +3,12 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/demo" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/gateway_demo" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/order_feign_api" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/order_service" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/parent_depency" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/pay_service" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/product_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/member-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order-feign-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent-depency" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pay-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/product-service" charset="UTF-8" />
     <file url="file://D:/Code/Java/springcloud/spring-cloud-mall/admin-server" charset="UTF-8" />
     <file url="file://D:/Code/Java/springcloud/spring-cloud-mall/config-server" charset="UTF-8" />
     <file url="file://D:/Code/Java/springcloud/spring-cloud-mall/erureka-server" charset="UTF-8" />

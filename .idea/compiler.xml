@@ -7,10 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="common" />
-        <module name="order_feign_api" />
-        <module name="order_service" />
-        <module name="pay_service" />
-        <module name="product_service" />
+        <module name="member-service" />
+        <module name="order-feign-api" />
+        <module name="order-service" />
+        <module name="pay-service" />
+        <module name="product-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
