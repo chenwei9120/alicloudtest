@@ -1,60 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39a16c5e-79c6-467a-84d4-0296615a10da" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/bit/model/MallOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/bit/model/MallOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/bit/model/MallOrderDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/bit/model/MallOrderDetail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/bit/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/bit/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/bit/util/Encrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/bit/util/Encrypt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member_service/src/main/resources/bootstrap.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-feign-api/src/main/java/com/bit/mall/feign_apis/client/ProductServiceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-feign-api/src/main/java/com/bit/mall/feign_apis/client/ProductServiceClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-feign-api/src/main/java/com/bit/mall/feign_apis/config/ProductServiceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-feign-api/src/main/java/com/bit/mall/feign_apis/config/ProductServiceConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/bit/mall/controller/OrderController2.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/bit/mall/controller/OrderController2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/com/bit/mall/OrderServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/com/bit/mall/config/DruidConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/com/bit/mall/config/GlobalExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/com/bit/mall/config/WebConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/com/bit/mall/controller/OrderController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/com/bit/mall/mapper/MallOrderDetailMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/com/bit/mall/mapper/MallOrderMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/com/bit/mall/model/MallOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/com/bit/mall/model/MallOrderDetail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/com/bit/rule/RibbonConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_service/src/main/resources/application.properties.back" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_service/src/main/resources/bootstrap.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_service/src/main/resources/com/bit/mall/mapper/MallOrderDetailMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_service/src/main/resources/com/bit/mall/mapper/MallOrderMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent-depency/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parent-depency/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pay_service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pay_service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pay_service/src/main/java/com/bit/pay_service/PayServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pay_service/src/main/java/com/bit/pay_service/config/GlobalExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pay_service/src/main/java/com/bit/pay_service/controller/PayController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pay_service/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/bit/mall/config/MybatisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/bit/mall/config/MybatisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/bit/mall/config/PageHelperConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/bit/mall/config/PageHelperConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/bit/mall/controller/ProductController2.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/bit/mall/controller/ProductController2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/bit/mall/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/bit/mall/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/src/main/java/com/bit/mall/ProductServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/src/main/java/com/bit/mall/config/DruidConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/src/main/java/com/bit/mall/controller/ProductController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/src/main/java/com/bit/mall/controller/ProductStoreController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/src/main/java/com/bit/mall/mapper/ProductMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/src/main/java/com/bit/mall/util/GlobalExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/src/main/resources/com/bit/mall/mapper/ProductMapper.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="39a16c5e-79c6-467a-84d4-0296615a10da" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/nacos_demo/target/" />
     <ignored path="$PROJECT_DIR$/../nacos-examples-master/nacos-spring-cloud-example/nacos-spring-cloud-discovery-example/nacos-spring-cloud-consumer-example/target/" />
@@ -327,7 +274,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>c</find>
       <find>custom.parent.version</find>
       <find>order_service</find>
       <find>pay-service</find>
@@ -357,6 +303,7 @@
       <find>BCryptPasswordEncoder</find>
       <find>new BCryptPasswordEncoder()</find>
       <find>solr.version-8.4.1</find>
+      <find>solr</find>
     </findStrings>
     <replaceStrings>
       <replace>=</replace>
@@ -445,6 +392,15 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ali_cloud" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ali_cloud" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="parent-depency" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
@@ -498,7 +454,7 @@
     <property name="SearchEverywhereHistoryKey" value="nacos-version&#9;FILE&#9;jar://D:/M2/repository/com/alibaba/nacos/nacos-common/1.1.4/nacos-common-1.1.4.jar!/nacos-version.txt" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589194478112" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589195688555" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/parent-depency" />
@@ -749,18 +705,18 @@
       <workItem from="1587969327326" duration="10332000" />
       <workItem from="1588052080691" duration="11856000" />
       <workItem from="1588211313496" duration="18593000" />
-      <workItem from="1589184635908" duration="1446000" />
+      <workItem from="1589184635908" duration="2784000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="280443000" />
+    <option name="totallyTimeSpent" value="281781000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7357294" visible="true" weight="0.16487935" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7357294" visible="true" weight="0.16487935" />
       <window_info id="Structure" order="1" sideWeight="0.2642706" side_tool="true" weight="0.24597855" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -770,7 +726,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.12181303" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3101983" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.042432815" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -783,7 +739,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49932975" weight="0.42917848" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49932975" visible="true" weight="0.12464589" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="16" weight="0.3286119" />
       <window_info anchor="bottom" id="Analysis" order="17" />
       <window_info anchor="bottom" id="Problems" order="18" />
